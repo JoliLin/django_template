@@ -9,11 +9,6 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^$', 'app.views.index'),
 	url(r'^index$', 'app.views.index'),
-	url(r'^MyMenu$', 'app.views.MyMenu'),
-	url(r'^MyMenuContainer$','app.views.MyMenuContainer'),
-	url(r'^MyMenuContent$','app.views.MyMenuContent'),
-	url(r'^Ranks$', 'app.views.Ranks'),
-	url(r'^Catagory$', 'app.views.Catagory'),
 	url(r'^ajax$', 'app.views.ajax'),
 	# Examples:
     # url(r'^$', 'hellodjango.views.home', name='home'),
